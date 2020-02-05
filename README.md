@@ -1,25 +1,36 @@
-# Savvy Coders Project Boilerplate Starter Kit
+# This is my first markdown.
 
-## Overview
+## A. Caine
 
-This template repository contains several opinionated, 'starter' files and settings to help Savvy Coder students focus more time and energy on learning how to code and/or craft 'business logic' for projects and less time on configurations.
+### Jan 4th 2020
 
-In addition to a '.gitignore' and some VS Code specific extensions and settings, it includes the 'recommended' settings for:
+The second week of class, beginning to learn markdown.
 
-1. [ESLint](eslint.org)
-2. [Stylelint](stylelint.io)
-3. [Prettier](prettier.io)
+_This text is in italics._
 
-## Get Started
+**This text is in bold.**
 
-**First and foremost,** make sure that your local machine is set up with all of the 'dev environment tooling' as per [this guide...](https://www.notion.so/codefinity/Setting-up-a-Local-Dev-Environment-97de62a546f943fbbc7a246b4785a343)
+**_This text is in both._**
 
-Well, after establishing your directory structure on your local machine, (e.g. '~/Code/SavvyCoders'), kindly [follow these girections](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) - essentially, there should be a button 👆🏾that says **Use this template.**
+~~This text is rendered with strikethrough.~~
 
-Once this repo has been created on your GitHub, you can click on the button to 'clone' it as usual. Once it's `clone`d to your local machine, kindly `cd` into the directory and **be sure to do:** `npm i` to get all of the goodies. If you see any _errors_ (warnings are 🙆🏾‍♂️) on Windows, you may have to do `npm install`.
+- Item
+- Item
+- Another item
 
-Now, enter `code .` to open this project in VS Code, and look for a prompt to 'install some extensions' once inside VS Code (in the bottom right of your screen). You should install these. 👍🏾
+1. Item one
+2. Item two
+3. Item three
 
-Update this README and make any other initial changes or 🌱 files, etc. Go ahead and do your usual `git` steps, etc. etc. etc.
+---
 
-**Note:** This is a template repository, no need to 'fork it.
+1. Item one
+2. Item two
+3. Item three
+   1. Sub-item
+   2. Sub-item
+4. Item four
+
+---
+
+[![Dog](https://i.imgur.com/81qyN1y.jpg)](http://www.google.com)
