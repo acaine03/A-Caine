@@ -1,54 +1,46 @@
-// const pen = "pen";
+// create a variable called "name" that references a string
+const name = "Caine";
 
-// const x = 3;
+// create a variable called "favoriteSong" that references a string
+let favoriteSong = "song"
 
-// const name = "Caine";
+// create a variable called "wage" that references a number
+let wage = 200
 
-// We reserve some space in memory and 'name' it 'numOfYears'
-// let numOfYears = 9;
+// create a variable called "age" that references a number
+let age = 30
 
-// 'let' allows us to re-assign.
-// This REFERENCES 'numOfYears' in memory - RIPS OUT the '9' and REPLACES it with a '10'.
-// numOfYears = 10;
+// create a variable called "onlyChild" that references a boolean
+onlyChild = true
 
-// JS is a DYNAMICALLY TYPED LANGUAGE.
-// numOfYears = "ten";
+// create a variable called "satisfied" that references a boolean
+satisfied = false
 
-// Create a sentence that says the name and the number or years of experience.
-// The '+' is CONCATENATING our STRINGS.
-// '.' notation is used to access KEYS within an OBJECT.
-// 'log' is a METHOD.
-// We INVOKE the METHOD with ().
-// We pass in an ARGUMENT.
-// console.log("My name is " + name + ".");
+// create a variable called "favoriteThing" that references ANY primitive value
+let favoriteThing = "toy";
 
-// Template literals use INTERPOLATION
-// INTERPOLATION occurs inside the '${}'.
+// print the data type of "favoriteThing"
+console.log(favoriteThing);
 
-// console.log(`My name is ${name}`);
+// ! You heard a new song that became your favorite.
+// Reassign the variable "favoriteSong"
+let favoriteSong = "new song";
 
-// creat a variable "timeOfDay" and assign it a string.
-// const timeOfDay = "Evening";
+// ! You no longer like the type of data stored in "favoriteThing"
+// Reassign "favoriteThing" to a different primitive data type and print its type
+let favoriteThing = 15;
 
-// create a variable "greeting" that uses a template literal to 'Good' followed by 'timeOfDay'.
-// const greeting = `Good ${timeOfDay}`;
+// ! Happy Birthday!
+// Reassign "age" to a new value
+let age = 31;
 
-// print "greeting"
-// console.log(greeting);
-// console.log(`Good ${timeOfDay}`);
+// ! You got a big raise at work.
+// Reassign "wage" to a new value
+let wage = 150;
 
-// create a new variable, but do not assign it a value
-// let something = undefined; // NEVER DO THIS!!
+// ! Your raise changed your job satisfaction.
+// Assign "satisfied" to true
+satisfied = false
 
-// 'null' represents the deliberate assignment of a 'nothing' value.
-// let someone = null; //RARELY DO THIS!
-
-// const useless = null;
-
-// print the variable and its type
-// ? what type should we expect?
-// console.log(something);
-// console.log(someone);
-// console.log(somethingElse);
-
-// null is the 5th and final primitive data type.
+// use "console.log()" and "+" to print a sentence that includes two variables
+console.log(${name} ${age});
