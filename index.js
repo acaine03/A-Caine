@@ -1,25 +1,13 @@
-// 'const' is not about IMMUTABILITY (ability to change) - it's about NO REASSIGNMENT.
-// OBJECTS can change. PRIMITIVES cannot.
-const me = {};
+const me = {
+  age = 36
+}
 
-// I CANNOT REASSIGN 'me'.
-// me = "23";
+console.log(me.age);
 
-// I CAN reassign the VALUE of 'key' inside of 'me'.
-me.name = "Caine";
+console.log(me["age"]);
 
-const someone = {
-  name: "III",
-  age: 21,
-  pets: {
-    cat: "Dora",
-    dog: "Fido"
-  }
-};
+let keyINeed = "age";
 
-someone.name = "Ed";
+console.log(me.keyINeed);
 
-console.log(someone.pets.cat);
-
-someone.name = "Ed";
-someone.occupation = "dev";
+// I must use BRACKET NOTATION if I need to use a VARIABLE for my key.
