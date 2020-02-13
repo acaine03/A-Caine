@@ -21,7 +21,11 @@ function myNumberFunction() {
   num = num * 14;
   console.log(num);
 }
-console.log(myNumberFunction());
+function check(num) {
+  if (num > 5) {
+    return "Greater than 5";
+  }
+}
 // now, invoke the myNumberFunction function
 
 // print just the function of console.log (no invocation)
