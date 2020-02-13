@@ -1,17 +1,14 @@
-// TODO: using the function expressions below, refactor them into function declarations
-function greet() {
-  console.log("Hello!");
+// print the function below
+function myNumberFunction() {
+  let num = 2 ** 2;
+  num = num + 3;
+  num = num % 4;
+  num = num * 14;
+  console.log(num);
 }
+console.log(myNumberFunction);
+myNumberFunction();
 
-function threeModTwo() {
-  console.log(3 % 2);
-}
+// now, invoke the myNumberFunction function
 
-let age = 18;
-function checkDrivingAge() {
-  if (age >= 16) {
-    console.log(true);
-  } else {
-    console.log(false);
-  }
-}
+// print just the function of console.log (no invocation)
