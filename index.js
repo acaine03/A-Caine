@@ -1,5 +1,17 @@
-const kitten = "meow"
-const cat = => {
-  console.log(kitten)
+// TODO: using the function expressions below, refactor them into function declarations
+function greet() {
+  console.log("Hello!");
 }
-cat()
+
+function threeModTwo() {
+  console.log(3 % 2);
+}
+
+let age = 18;
+function checkDrivingAge() {
+  if (age >= 16) {
+    console.log(true);
+  } else {
+    console.log(false);
+  }
+}
